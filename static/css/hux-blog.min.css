@@ -952,3 +952,11 @@ body {
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
 }
+
+img[src$="#avatar"] {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+}
