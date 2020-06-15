@@ -85,5 +85,10 @@
     <script src="{{ . | absURL }}"></script>
     {{ end }}
 
+    <!-- Enable MathJax -->
+    {{ if or .Params.math .Site.Params.math }}
+    {{ partial "math.html" . }}
+    {{ end }}
+
 </head>
 
